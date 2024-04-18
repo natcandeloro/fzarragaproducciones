@@ -1,0 +1,102 @@
+
+.mision {
+    width: 100%;
+    text-align: center;
+}
+
+
+.row{
+    align-items: center;
+    padding: 2em;
+    justify-content: center;
+    width: 100.5%;
+}
+.card {
+    box-sizing: border-box;
+    width: 390px;
+    height: 380px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    margin: 1em;
+}
+
+.card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+ol{
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    width: 5em;
+    margin: 2em;
+}
+
+.col-4 {
+    justify-content: center;
+}
+
+.text {
+    text-align: start;
+    font-family: Poppins;
+    font-size: 21px;
+    line-height: normal;
+    font-weight: 300;
+    text-align: center;
+    /*color: var(--color-text);*/
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-style: italic;
+}
+
+.linea {
+    border-right: solid #000;
+    height: 100%;
+}
+
+.linea-left {
+    border-left: solid #000;
+    height: 100%;
+}
+
+
+.OP3 { 
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 21px;
+}
+
+.OP2 { 
+    background-color: #3c61ac; 
+    color:#fff;
+    font-size: 21px;
+}
+
+.OP1 { 
+    background-color: #5677b9; 
+    color:#fff;
+    font-size: 21px;
+}

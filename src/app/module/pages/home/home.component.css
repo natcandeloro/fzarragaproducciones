@@ -1,0 +1,14 @@
+.logo {
+    width: 8em;
+}
+
+.row {
+    align-items: center;
+    padding: 1em 0 1em 0;
+    width: 100%;
+    
+}
+
+.col-4 {
+    padding: 0;
+}

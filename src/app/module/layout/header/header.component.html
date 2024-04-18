@@ -1,0 +1,39 @@
+<div class="op2">
+    <a href="https://wa.me/2615091906" target="_blank"><img src="../../../../assets/whatsapp.png" alt="Logo whatsapp" class="logo"/></a>
+    <a href="mailto:fernandozarraga@yahoo.com.ar" target="_blank"><img src="../../../../assets/correo-electronico.png" alt="Logo email" class="logo"/></a>
+    <a href="https://www.facebook.com/fernandozarraga/?locale=es_LA" target="_blank"><img src="../../../../assets/facebook.png" alt="Logo Facebook" class="logo"/></a>
+    <a href="https://twitter.com/fernandozarraga?lang=es" target="_blank"><i class="fa-brands logo fa-square-x-twitter"></i></a>
+    <a href="https://www.instagram.com/fernando_zarraga?igsh=MWtqeWpjMjlyOTR3MA==" target="_blank"><img src="../../../../assets/instagram.png" alt="Logo Instagram" class="logo"/> </a>
+    <a href="https://www.youtube.com/@FerZar1970" target="_blank"><img src="../../../../assets/youtube.png" alt="Logo youtube" class="logo"/></a>
+</div>
+<mat-toolbar>
+    <div class="col-4">
+        <a class="navbar-brand" routerLink="home"><img src="../../../../assets/fzo.png"/></a>
+    </div>
+    <div class="col-8">
+        <a  routerLink="somos" >Quiénes somos</a>
+    <a  routerLink="nosotros">Nuestra historia</a>
+    <a  routerLink="vision">Misión, Visión y Valores</a>
+    <a routerLink="clientes" >Principales Clientes </a>
+    <a routerLink="contacto" >Contactos </a>
+    </div>
+    
+    <button mat-icon-button (click)="sidenav.toggle()" class="menu-button">
+        <mat-icon>menu</mat-icon>
+    </button>
+    </mat-toolbar>    <hr/>
+    <mat-sidenav-container class="sidenav-container">
+        <mat-sidenav #sidenav mode="side" (click)="closeSideNav()">
+        <mat-nav-list>
+        <a class="nav-link"  routerLink="somos" >Quiénes somos</a>
+        <a class="nav-link" routerLink="nosotros">Nuestra historia</a>
+        <a class="nav-link" routerLink="vision">Misión, Visión y Valores</a>
+        <a class="nav-link" routerLink="clientes" >Principales Clientes </a>
+        <a class="nav-link" routerLink="contacto" >Contactos </a>
+        <a class="nav-link btn-subir" mat-list-item routerLink="descarga"> Descargar estudios</a>
+        </mat-nav-list>
+        </mat-sidenav>
+        <mat-sidenav-content>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+

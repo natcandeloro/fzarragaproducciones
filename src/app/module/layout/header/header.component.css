@@ -1,0 +1,65 @@
+.op2 {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  width: 100%;
+  background-color: var(--color-primary);
+}
+
+img { 
+  width: 19em;
+}
+
+i {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.logo { 
+  width: 1.5em;
+  margin-left: 1.5em;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row { 
+    justify-content: space-evenly;
+    background-color: var(--color-background);
+}
+
+.col-8 {
+  display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 18px;
+}
+
+a:hover {
+  color: black;
+}
+
+.mat-toolbar {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.menu-button {
+    display: none; /* El botón de menú se oculta por defecto */
+  }
+  
+  .desktop-menu {
+    display: flex; /* Los elementos del menú se muestran horizontalmente */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .menu-button {
+      display: block; /* El botón de menú se muestra en pantallas pequeñas */
+    }
+  
+    .desktop-menu {
+      display: none; /* Los elementos del menú se ocultan en pantallas pequeñas */
+    }
+  }
+  
+

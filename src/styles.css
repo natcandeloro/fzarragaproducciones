@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+
+/* Definición de variables de color */
+:root {
+    --color-primary: #2E57A6;
+    --color-secondary: #D9E4F3;
+    --color-background: #F7F7F7;
+    --color-accent: #FFC107;
+    --color-text: #34495E;
+}
+
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--color-background);
+
+}

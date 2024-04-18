@@ -1,0 +1,20 @@
+.image-fija {
+    text-align: center;
+    color: #424242;
+    padding: 2em;
+  }
+
+  h1 {
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 2em;
+  }
+
+  ol {
+    font-size: 17px;
+  }
+
+  .vertical-line {
+    border-left: 2px solid #2E57A6; 
+    height: auto; 
+}
