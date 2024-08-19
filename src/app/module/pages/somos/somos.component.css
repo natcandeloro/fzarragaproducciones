@@ -3,9 +3,8 @@
     align-items: center;
     justify-content: center;
     min-height: 60%;
-    margin: 2em;
+    margin: 1em 6em;
 }
-
 
 .image-fija {
   background-image: linear-gradient(to bottom, #0000ff1a, #0000ff1a), url(../../../../assets/radio.jpg);
@@ -45,14 +44,15 @@ td {
 @media only screen and (max-width: 1000px) {
 .containerSomos {
   flex-direction: column;
-  margin: 0;
-}
-
-.col-6 {
-  width: 80%;
+  margin: 0 !important;
 }
 
 td {
   padding: 0.5em !important;
+  min-width: 200px;
+}
+
+.col-6 { 
+  justify-content: flex-start;
 }
 }
