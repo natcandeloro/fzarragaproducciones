@@ -1,26 +1,28 @@
-.container { 
+.containerSomos { 
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 60%;
+    margin: 2em;
 }
 
 
 .image-fija {
-    background-image: url('../../../../assets/radio.jpg');
+  background-image: linear-gradient(to bottom, #0000ff1a, #0000ff1a), url(../../../../assets/radio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 13em;
+    height: 20em;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   h1{
-    font-weight: 400;
-    font-size: 40px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
   }
 
 .col-6 {
@@ -30,16 +32,27 @@
 
 td {
     padding: 1em !important;
-    font-size: 20px;
+    font-size: 16px;
     color: #424242;
 }
 
 .title {
   color: #2E57A6;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 20px;
 }
 
+@media only screen and (max-width: 1000px) {
+.containerSomos {
+  flex-direction: column;
+  margin: 0;
+}
 
+.col-6 {
+  width: 80%;
+}
 
-
+td {
+  padding: 0.5em !important;
+}
+}

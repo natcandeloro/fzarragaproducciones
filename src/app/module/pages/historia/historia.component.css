@@ -6,13 +6,26 @@
     padding: 2em;
 }
 
+.image-fija {
+    background-image: url('../../../../assets/micro\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 20em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .row {
     align-items: center;
 }
 
-.vertical-line {
-    border-left: 5px solid #2E57A6; 
-    height: auto; 
+.foto { 
+    display: flex;
+    justify-content: flex-end
 }
 
 h1, p {
@@ -22,13 +35,15 @@ h1, p {
 }
 
 p{
-    font-size: 25px;
-    line-height: normal;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.5em;
 }
 
 h1 {
     font-style: italic;
     font-size: 30px;
+    font-weight: bolder;
 }
 
 img {
@@ -41,5 +56,15 @@ img {
     width: 20em;
     height: 15em;
     border-radius: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    h1 { 
+        font-size: 25px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
 }
 

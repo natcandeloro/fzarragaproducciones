@@ -1,20 +1,32 @@
 .image-fija {
-    text-align: center;
-    color: #424242;
-    padding: 2em;
-  }
+  background-image: linear-gradient(to bottom, #0000ff1a, #0000ff1a), url(../../../../assets/pexels-seej-nguyen-249333-755416.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+  color: #fff;
+}
 
   h1 {
     font-style: italic;
+    font-weight: bolder;
     font-size: 30px;
     margin-bottom: 2em;
   }
 
   ol {
     font-size: 17px;
+    padding: 0;
   }
 
   .vertical-line {
     border-left: 2px solid #2E57A6; 
     height: auto; 
+    text-align: center;
 }

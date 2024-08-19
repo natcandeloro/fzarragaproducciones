@@ -4,7 +4,6 @@
     text-align: center;
 }
 
-
 .row{
     align-items: center;
     padding: 2em;
@@ -41,9 +40,11 @@
     transform: scale(0.95) rotateZ(1.7deg);
 }
 
-ol{
+ li{
     padding: 0;
-    text-align: center;
+    text-align: start;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 img {
@@ -70,6 +71,7 @@ h1 {
     text-align: center;
     font-size: 3em;
     font-style: italic;
+    font-weight: bolder;
 }
 
 .linea {
@@ -99,4 +101,14 @@ h1 {
     background-color: #5677b9; 
     color:#fff;
     font-size: 21px;
+}
+
+@media only screen and (max-width: 1000px) {
+    h1 { 
+        font-size: 1.5em;
+    }
+
+    .text { 
+        font-size: 14px;
+    }
 }

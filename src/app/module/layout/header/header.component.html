@@ -10,30 +10,32 @@
     <div class="col-4">
         <a class="navbar-brand" routerLink="home"><img src="../../../../assets/fzo.png"/></a>
     </div>
-    <div class="col-8">
-        <a  routerLink="somos" >Quiénes somos</a>
-    <a  routerLink="nosotros">Nuestra historia</a>
-    <a  routerLink="vision">Misión, Visión y Valores</a>
-    <a routerLink="clientes" >Principales Clientes </a>
-    <a routerLink="contacto" >Contactos </a>
+    <div class="col-8 desktop-menu">
+        <div class="caja nav-link"><a  routerLink="somos">Quiénes somos</a></div>
+        <div class="caja nav-link"><a routerLink="nosotros">Nuestra historia</a></div>
+        <div class="caja nav-link"><a routerLink="vision">Misión, visión y valores</a></div>
+        <div class="caja nav-link"><a routerLink="clientes">Principales clientes </a></div>
+        <div class="caja nav-link"><a routerLink="contacto">Contactos </a></div>
     </div>
     
     <button mat-icon-button (click)="sidenav.toggle()" class="menu-button">
         <mat-icon>menu</mat-icon>
     </button>
     </mat-toolbar>    <hr/>
-    <mat-sidenav-container class="sidenav-container">
+
+ <mat-sidenav-container class="sidenav-container">
         <mat-sidenav #sidenav mode="side" (click)="closeSideNav()">
         <mat-nav-list>
-        <a class="nav-link"  routerLink="somos" >Quiénes somos</a>
-        <a class="nav-link" routerLink="nosotros">Nuestra historia</a>
-        <a class="nav-link" routerLink="vision">Misión, Visión y Valores</a>
-        <a class="nav-link" routerLink="clientes" >Principales Clientes </a>
-        <a class="nav-link" routerLink="contacto" >Contactos </a>
-        <a class="nav-link btn-subir" mat-list-item routerLink="descarga"> Descargar estudios</a>
+        <a mat-list-item routerLink="somos">Quiénes somos</a>
+        <a mat-list-item routerLink="nosotros">Nuestra historia</a>
+        <a mat-list-item routerLink="vision">Misión, visión y valores</a>
+        <a mat-list-item routerLink="clientes">Principales clientes </a>
+        <a mat-list-item routerLink="contacto">Contactos </a>
         </mat-nav-list>
         </mat-sidenav>
         <mat-sidenav-content>
+            <router-outlet></router-outlet>
+
         </mat-sidenav-content>
     </mat-sidenav-container>
 
