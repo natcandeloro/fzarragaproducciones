@@ -2,6 +2,14 @@
     width: 8em;
 }
 
+.logoV {
+    width: 6em;
+}
+
+.logo1 {
+    width: 10em;
+}
+
 .row {
     align-items: center;
     padding: 1em 0 1em 0;
@@ -26,15 +34,27 @@ p{
         width: 5em;
     }
 
-    p{
-        font-size: 14px;
+    .logo1 {
+        width: 7em;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .row{
+        justify-content: space-between;
     }
 
     h1 { 
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .col-4 {
         width: 30%;
+    }
+
+    .none {
+        display: none;
     }
 } 

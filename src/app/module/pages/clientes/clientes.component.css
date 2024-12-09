@@ -1,6 +1,5 @@
 .image-fija {
   background-image: linear-gradient(to bottom, #0000ff1a, #0000ff1a), url(../../../../assets/pexels-seej-nguyen-249333-755416.jpg);
-
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

@@ -2,9 +2,9 @@
     <a href="https://wa.me/2615091906" target="_blank"><img src="../../../../assets/whatsapp.png" alt="Logo whatsapp" class="logo"/></a>
     <a href="mailto:fernandozarraga@yahoo.com.ar" target="_blank"><img src="../../../../assets/correo-electronico.png" alt="Logo email" class="logo"/></a>
     <a href="https://www.facebook.com/fernandozarraga/?locale=es_LA" target="_blank"><img src="../../../../assets/facebook.png" alt="Logo Facebook" class="logo"/></a>
-    <a href="https://twitter.com/fernandozarraga?lang=es" target="_blank"><i class="fa-brands logo fa-square-x-twitter"></i></a>
+    <a href="https://twitter.com/fernandozarraga?lang=es" target="_blank"><img src="../../../../assets/gorjeo.png" alt="Logo Facebook" class="logo"/></a>
     <a href="https://www.instagram.com/fernando_zarraga?igsh=MWtqeWpjMjlyOTR3MA==" target="_blank"><img src="../../../../assets/instagram.png" alt="Logo Instagram" class="logo"/> </a>
-    <a href="https://www.youtube.com/@FerZar1970" target="_blank"><img src="../../../../assets/youtube.png" alt="Logo youtube" class="logo"/></a>
+    <a href="https://www.youtube.com/@FernandoZarragaProducciones" target="_blank"><img src="../../../../assets/youtube.png" alt="Logo youtube" class="logo"/></a>
 </div>
 <mat-toolbar>
     <div class="col-4">
@@ -17,16 +17,15 @@
         <div class="caja nav-link"><a routerLink="clientes">Principales clientes </a></div>
         <div class="caja nav-link"><a routerLink="contacto">Contactos </a></div>
     </div>
-    
+
     <button mat-icon-button (click)="sidenav.toggle()" class="menu-button">
         <mat-icon>menu</mat-icon>
     </button>
     </mat-toolbar>    <hr/>
-
  <mat-sidenav-container class="sidenav-container">
         <mat-sidenav #sidenav mode="side" (click)="closeSideNav()">
         <mat-nav-list>
-        <a mat-list-item routerLink="somos">Quiénes somos</a>
+        <a mat-list-item routerLink="somos" >Quiénes somos</a>
         <a mat-list-item routerLink="nosotros">Nuestra historia</a>
         <a mat-list-item routerLink="vision">Misión, visión y valores</a>
         <a mat-list-item routerLink="clientes">Principales clientes </a>
@@ -35,7 +34,6 @@
         </mat-sidenav>
         <mat-sidenav-content>
             <router-outlet></router-outlet>
-
         </mat-sidenav-content>
     </mat-sidenav-container>
 
