@@ -6,6 +6,10 @@
   background-color: var(--color-primary);
 }
 
+.p {
+  padding: 1em;
+}
+
 .caja { 
   border-radius: 10px;
   padding: 5px;
